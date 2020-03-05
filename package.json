@@ -1,0 +1,20 @@
+{
+  "name": "GoBarber",
+  "version": "1.0.0",
+  "description": "Backend projeto bootcamp",
+  "main": "src/server.js",
+  "repository": "https://github.com/caiousper2011/modulo02.git",
+  "author": "caiousper2011 <32861462+caiousper2011@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.12.1"
+  }
+}
